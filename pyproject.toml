@@ -1,0 +1,19 @@
+[project]
+name = "evaluacion-practica-progra-ii"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "annan-7", email = "annanrecord@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "sqlalchemy>=2.1.8",
+]
+
+[project.scripts]
+evaluacion-practica-progra-ii = "evaluacion_practica_progra_ii:main"
+
+[build-system]
+requires = ["uv_build>=0.13.5,<0.14.0"]
+build-backend = "uv_build"
